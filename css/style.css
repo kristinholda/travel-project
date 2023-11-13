@@ -10,6 +10,18 @@ section {
   padding: 100px;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -71,7 +83,42 @@ header a.more-btn {
   background: #6643b5;
   color: #ffffff;
 }
+main {
+  background-color: white;
+}
 
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
+.img-responsive {
+  width: 100%;
+  display: block;
+}
 footer {
   color: #ffffff;
   background-image: linear-gradient(rgba(35, 7, 46, 0.9), rgba(35, 7, 46, 0.9)),
@@ -106,15 +153,6 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
-}
-
-.grid {
-  display: grid;
-  grid-gap: 64px;
-}
-
-.grid-3-columns-with-first-narrow {
-  grid-template-columns: 1fr 2fr 2fr;
 }
 
 @media (max-width: 960px) {
