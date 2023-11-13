@@ -10,6 +10,10 @@ section {
   padding: 100px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -22,6 +26,70 @@ section {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #6643b5;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 1px solid #6643b5;
+  color: #6643b5;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -119,6 +187,11 @@ main p {
   width: 100%;
   display: block;
 }
+
+section.secondary {
+  background: #f8f8f8;
+}
+
 footer {
   color: #ffffff;
   background-image: linear-gradient(rgba(35, 7, 46, 0.9), rgba(35, 7, 46, 0.9)),
