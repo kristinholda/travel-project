@@ -253,4 +253,8 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
+
+  section {
+    padding: 30px;
+  }
 }
