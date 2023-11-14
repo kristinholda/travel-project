@@ -192,6 +192,10 @@ section.secondary {
   background: #f8f8f8;
 }
 
+.instagram-embeds {
+  margin: 30px 0;
+}
+
 footer {
   color: #ffffff;
   background-image: linear-gradient(rgba(35, 7, 46, 0.9), rgba(35, 7, 46, 0.9)),
